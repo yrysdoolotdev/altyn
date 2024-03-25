@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background:rgba(0, 90, 129, 1.00);
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+a {
+    text-decoration: none;
+}
+button{
+border: none;
+    cursor: pointer;
+    background: rgb(0, 178, 255);
+    padding: 7px 23px;
+}
+#header {
+    padding: 30px 0;
+}
+.header-tittle{
+    display: flex;
+    color: white;
+}
+.header a {
+ justify-content: center;
+  color: white;
+    padding: 10px 70px    ;
+}
+.header {
+    display: flex;
+}
+.header-tittle button {
+   rgb(0, 178, 255)
+}
+.auto-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.auto-tittle h1 {
+  color:white;
+    padding: 50px 10px;
+}
+.auto button {
+    background: rgb(0, 178, 255);
+    color: white;
+    padding: 7px 23px;
+}
+.here-button-one {
+    border: 1px solid white;
+}
+.auto-tittle h4{
+    padding: 30px 10px;
+   color: white;
+}
+.auto-tittle button {
+    margin: 20px 0;
+    animation: btn 2s infinite;
+    
+}
+.hero-button-one {
+    width: 20px;
+    height: 20px;
+    background: blue;
+    border-radius: 50%;
+
+}
+
+
+@keyframes btn {
+    0%{
+        background: red;
+    }
+    50%{
+        background: gold;
+    }
+    100%{
+        background: blue;
+    }
+}
+
+.hero-button-two {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin: 0 10px ;
+}
+
+.hero-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.auto-tittle a{
+    padding: 10px 5px;
+    color: white;
+}
