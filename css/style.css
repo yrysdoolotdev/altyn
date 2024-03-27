@@ -3,7 +3,7 @@
     margin: 0;
 }
 body {
-    background:rgba(0, 90, 129, 1.00);
+    background: rgb(0, 52, 72);
 }
 
 .container {
@@ -28,35 +28,50 @@ border: none;
 }
 .header a {
  justify-content: center;
-  color: white;
     padding: 10px 70px    ;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
 }
 .header {
     display: flex;
 }
-.header-tittle button {
+.header-tittle {
    rgb(0, 178, 255)
 }
 .auto-block {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 .auto-tittle h1 {
-  color:white;
     padding: 50px 10px;
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58px;
+    text-align: left;
 }
 .auto button {
-    background: rgb(0, 178, 255);
+    background: rgb(196, 196, 196);
     color: white;
     padding: 7px 23px;
 }
 .here-button-one {
-    border: 1px solid white;
+    width: 20px;
+    height: 20px;
+    background: rgb(255, 0, 115);
+    border-radius: 50%;
 }
 .auto-tittle h4{
     padding: 30px 10px;
-   color: white;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
 }
 .auto-tittle button {
     margin: 20px 0;
@@ -64,11 +79,11 @@ border: none;
     
 }
 .hero-button-one {
-    width: 20px;
-    height: 20px;
-    background: blue;
+    width: 13px;
+    height: 13px;
     border-radius: 50%;
-
+    border: 2px solid white;
+    margin: 0 10px ;
 }
 
 
@@ -85,11 +100,12 @@ border: none;
 }
 
 .hero-button-two {
-    width: 20px;
-    height: 20px;
+
+    width: 21px;
+    height: 21px;
+    background: rgb(0, 178, 255);
     border-radius: 50%;
-    border: 2px solid white;
-    margin: 0 10px ;
+
 }
 
 .hero-button {
